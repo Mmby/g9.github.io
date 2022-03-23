@@ -483,6 +483,9 @@
       if(this.isover) {
         this.currentIndex = 0
         this.isover = false
+        this.list.map(item => {
+          item.selected = null
+        })
       }else {
         let arr = []
         let mapLetter = ['A', 'B', 'C', 'D']
