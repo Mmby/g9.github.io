@@ -468,7 +468,7 @@
   },
   computed: {
     progressVal: function () {
-      return (((this.currentIndex+1) / this.list.length).toFixed(2) * 100)
+      return (((this.currentIndex+1) / this.list.length).toFixed(2) * 100).toFixed(2)
     }
   },
   methods: {
