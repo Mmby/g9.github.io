@@ -325,6 +325,7 @@ const vm = new Vue({
     submit() {
       if(this.isover) {
         this.currentIndex = 0
+        this.isover = false
       }else {
         let arr = []
         let mapLetter = ['A', 'B', 'C', 'D']
